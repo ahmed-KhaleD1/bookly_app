@@ -23,7 +23,9 @@ class BooksListViewItem extends StatelessWidget {
           height: 120,
           child: Row(
             children: [
-              const CustomBookImage(),
+              const CustomBookImage(
+                  imageUrl:
+                      'http://books.google.com/books/content?id=zsJlEK4nK7sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api'),
               const SizedBox(
                 width: 30,
               ),
